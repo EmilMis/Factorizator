@@ -1,0 +1,2 @@
+# Factorizator
+Factorizes numbers
