@@ -25,8 +25,8 @@ int prime(big number) {
 }
 
 int main(void) {
-
 	big n;
+	cout << "> ";
 	cin >> n;
 	printf("%llu = ", n);
 	while (n > 1) {
