@@ -30,7 +30,7 @@ int main(void) {
 	cin >> n;
 	printf("%llu = ", n);
 	while (n > 1) {
-		if (prime(n)) { cout << n; exit(0); }
+		if (prime(n)) { cout << n << "\n"; exit(0); }
 		for (int i = 2; i <= n; i++) {
 			if (prime(i) && n % i == 0) {
 				printf("%d * ", i);
